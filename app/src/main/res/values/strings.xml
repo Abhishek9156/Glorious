@@ -1,0 +1,470 @@
+<resources>
+    <string name="app_name">glorious</string>
+
+
+    <string name="menu_home">Home</string>
+    <string name="skipLogin">Skip</string>
+    <string name="app_welcome">Welcome Back!</string>
+    <string name="signInText">Sign in to continue to</string>
+    <string name="app_name_small">Gloriousplus</string>
+    <string name="otp_login">OTP Sign In</string>
+    <string name="hint_number">Mobile Number</string>
+    <string name="hint_otp">OTP</string>
+    <string name="hint_password">Password</string>
+    <string name="loginText">Login</string>
+    <string name="don_t_have_account">Don\'t have account?</string>
+    <string name="text_signUp">Sign Up</string>
+    <string name="text_signIn">Sign In</string>
+    <string name="hint_name">First Name</string>
+    <string name="hint_lname">Last Name</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_referral_code">Referral Code (Optional)</string>
+    <string name="terms_and_conditions">By signing up you are agree to our Terms &amp; Conditions.</string>
+    <string name="proceed">Proceed</string>
+    <string name="already_have_account">Already have account?</string>
+    <string name="registerText">Glad to see you to</string>
+    <string name="send">Send</string>
+
+    <string name="enter_mobile_number">Enter Mobile Number \n for OTP</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cart">Cart</string>
+    <string name="wishlist">Wishlist</string>
+    <string name="category">Category</string>
+    <string name="Order_history">Order history</string>
+    <string name="profile">Profile</string>
+    <string name="my_account">My account</string>
+    <string name="phone">Phone number</string>
+    <string name="address_book">Address book</string>
+    <string name="other_information">Other information</string>
+    <string name="share_app">Share the App</string>
+    <string name="please_wait">Please wait …</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="your_information">your information</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="at_serve" translatable="false">At Serve</string>
+    <string name="sign_in_via_otp">Sign In via OTP</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="sign_in_with_number">Sign in with Number</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="otp">OTP</string>
+    <string name="search_hint">Search</string>
+    <string name="f_name">First Name</string>
+    <string name="l_name">Last Name</string>
+    <string name="invalid_email_formate">Email should be in valid formate</string>
+    <string name="change_password">Change Password</string>
+    <string name="error_no_internet">"Please check your network connection and try again."</string>
+    <string name="error_incorrect_phone_number">"Please check your phone number and try again."</string>
+    <string name="error_invalid_credentials">"Please check your credentials and try again."</string>
+    <string name="validation_password_must_length_min">"Password should be at least 6 characters"</string>
+    <string name="openDrawer" translatable="false" />
+    <string name="otp_received">Enter OTP</string>
+    <string name="error_no_otp_login">Currently Login Via OTP is in Development, Please Try login using password</string>
+    <string name="error_password_not_match">Password do not match</string>
+    <string name="order_number">Order Number:</string>
+    <string name="order_type">Order Type:</string>
+    <string name="no_order_history_available">No Order History Available</string>
+    <string name="no_new_order_available">No New Orders Available</string>
+    <string name="no_customer_available">No Customer Available</string>
+    <string name="no_accepted_order_available">No Accepted Orders Available</string>
+    <string name="no_assign_order_available">No Assign Orders Available</string>
+    <string name="reject">Reject</string>
+    <string name="accept">Accept</string>
+    <string name="order">Order</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_password">New Password</string>
+    <string name="re_enter_new_password">Re-Enter New Password</string>
+    <string name="no_attandance_report_available">No Attandance Report Available</string>
+
+    <string name="clockin">Clock IN</string>
+    <string name="clockout">Clock Out</string>
+    <string name="name">Name:</string>
+    <string name="lbl_name">Name</string>
+    <string name="address">Address:</string>
+    <string name="amount">Amount :</string>
+    <string name="id">Customer ID :</string>
+    <string name="reject_order">Reject Order</string>
+    <string name="enter_rejection_reason_please">Enter Rejection Reason Please</string>
+    <string name="cancel">Cancel</string>
+    <string name="delivered">Delivered</string>
+    <string name="delivery">Delivery</string>
+    <string name="order_accept">Accept Order</string>
+    <string name="contact">Contact:</string>
+    <string name="item">Item:</string>
+    <string name="by">By :</string>
+    <string name="delivery_time">Delivery Time:</string>
+    <string name="quantity">Quantity:</string>
+    <string name="products_services">products / services</string>
+    <string name="validation_required_field">"This is a required field"</string>
+    <string name="phone_number_10_digits">Phone Number must be 10 digits</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="sign_in_with_phonenumber">Sign In with Phone Number</string>
+    <string name="sign_in">Sign In</string>
+    <string name="lbl_or">Or</string>
+    <string name="place_api_key">AIzaSyAl6Kn3B03RcEmC3NHtaR2gbns0fynqjBw</string>
+    <string name="confirm_registration">Confirm Your Registration</string>
+    <string name="otp_4_digit">Otp must be 4 digit</string>
+    <string name="bharat_pay_qr">Bharat Pay QR</string>
+    <string name="paytm_qr">Paytm QR</string>
+    <string name="search_location">Search Location</string>
+    <string name="view">View</string>
+    <string name="next">Next</string>
+    <string name="reset">Reset</string>
+    <string name="start_time">Start Time</string>
+    <string name="end_time">End Time</string>
+    <string name="adhar_number_12_digits">Adhar Number must be 12 digits</string>
+
+    <string name="total_orders">Total Orders:- %d</string>
+    <string name="total_sales">Total Sales:- %s</string>
+    <string name="accepted_orders">Accepted Orders:- %d</string>
+    <string name="rejected_orders">Rejected Orders:- %d</string>
+    <string name="in_progress_orders">In Progress Orders:- %d</string>
+    <string name="new_orders">New Orders:- %d</string>
+    <string name="delivered_orders">Delivered Orders:- %d</string>
+    <string name="in_progress">In Progress</string>
+    <string name="product_delivered">Product Delivered</string>
+    <string name="payment_link">Payment Link</string>
+    <string name="new_order">New Order</string>
+    <string name="in_progress_order">In Progress Order</string>
+    <string name="accepted_order">Accepted Order</string>
+    <string name="no_app_found_open_website">No app found to open website</string>
+    <string name="no_app_found_open_dialer">No app found to open dialer</string>
+    <string name="to">To</string>
+    <string name="product_name">Product Name</string>
+    <string name="from">From</string>
+    <string name="description">Description</string>
+    <string name="mrp">MRP</string>
+    <string name="delivery_charge">Delivery Charge</string>
+    <string name="security_charge">Securty Charge</string>
+    <string name="min_bottle_order_accept">Minimum Bottle Order Accept</string>
+    <string name="selling_price">Selling Price</string>
+    <string name="will_you_enable_subscription">Will Your Enable Subscription</string>
+    <string name="subscription_price">Subscription Price</string>
+    <string name="today_s_order_summary">Today\'s Order Summary</string>
+    <string name="lov_item_not_available">Item not available.(apologies for the inconvenience</string>
+    <string name="lov_cant_deliver_to_location">Can\'t deliver to the location.( apologies for the inconvenience)</string>
+    <string name="any_other_reason">My reason is not mentioned here. (Unavoidable Circumstances)</string>
+    <string name="please_select_a_reason">Please select a reason</string>
+    <string name="please_select_or_enter_a_reason">Please select or enter a reason</string>
+    <string name="no_in_progress_orders_available">No In-Progress Orders Available</string>
+    <string name="no_in_assign_orders_available">No In-Assign Orders Available</string>
+    <string name="please_enter_otp">Please Enter OTP</string>
+    <string name="register_with_atserve">Register with AtServe</string>
+    <string name="tell_us_about_yourself">Tell us about yourself</string>
+    <string name="register">Register</string>
+    <string name="please_upload_your_visiting_card">Please upload your visiting card to let us know more about you</string>
+    <string name="receive_Boottel">No of Bottle Received?</string>
+    <string name="submit_Boottel_Plus">+</string>
+    <string name="submit_Boottel_Minus">-</string>
+    <string name="start_date">Start Date</string>
+    <string name="delivery_person_already_register">Delivery person already register</string>
+    <string name="select_your_delivery_location">Select Your Delivery Location</string>
+    <string name="search_your_location">Search Your Location</string>
+    <string name="permission_calendar">Please grant calendar permission to AtServe.</string>
+
+    <string name="permission_contacts">Please grant calling permission to AtServe.</string>
+    <string name="location_alert_message">"We will use your location to show you the nearest vendors available as per your need."</string>
+    <string name="label_open_settings">Open Settings</string>
+    <string name="permission_denied">Permission Denied</string>
+    <string name="general_ok">"OK"</string>
+    <string name="imagepicker_parent">VendorApp/files</string>
+    <string name="choose_existing_photo">Choose Existing Photo</string>
+    <string name="take_new_photo">Take New Photo</string>
+    <string name="upload_image">Upload Image</string>
+
+    <string name="save">Save</string>
+    <string name="alert_unable_to_save_image">Unable to save image. Please try again!</string>
+    <string name="success">Success</string>
+    <string name="thank_you_choose_atserve">Thank you for Choosing Atserve for Business. Our Representative will contact you within 24 hours.</string>
+    <string name="my_customers">My Customers</string>
+    <string name="my_Dps">My DPs</string>
+    <string name="alert">Alert</string>
+
+    <string name="turning_off_alert">You are turning off your services. You will not be able to receive any order. Are you sure you want to continue?</string>
+    <string name="order_rejected_successfully">Order Rejected Successfully</string>
+    <string name="order_accepted_successfully">Order Accepted Successfully</string>
+    <string name="order_delivered_successfully">Order Delivered Successfully</string>
+    <string name="something_went_wrong">Something went wrong. Please Try Again!</string>
+    <string name="not_available">N/A</string>
+    <string name="otp_send_successfully">OTP send successfully</string>
+    <string name="enter_otp">Enter otp</string>
+    <string name="scheduled_count">Scheduled (%d)</string>
+
+
+    <string name="new_count">New (%d)</string>
+    <string name="accepted_count">Accepted (%d)</string>
+    <string name="in_progress_count">In Progress (%d)</string>
+    <string name="submit">Submit</string>
+    <string name="sign_in_with_mobile_number">Sign in with Mobile Number</string>
+    <string name="call">Call</string>
+    <string name="my_orders">My Orders</string>
+    <string name="history">History</string>
+    <string name="my_delivery_areas">My Delivery Areas</string>
+    <string name="my_products_services">My Products/Services</string>
+    <string name="business_report">Business Report</string>
+    <string name="inventory_report">Inventory Report</string>
+    <string name="create_dp_account">Create DP Account</string>
+    <string name="assign_order_To_Dp">Assign Order To DP</string>
+    <string name="today_order">Today order</string>
+    <string name="assign">Assign</string>
+    <string name="completed_order">Completed Order</string>
+    <string name="assign_order">Assign Order</string>
+    <string name="about_us">About Us</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="logout">Logout</string>
+    <string name="need_help_call_us">Need Help? Call Us</string>
+    <string name="call_us">Call Us</string>
+    <string name="payment_Qr">Payment Qr</string>
+    <string name="accept_all_order">Accept All Order</string>
+    <string name="assigned_order_To_Dp">Assigned Order</string>
+    <string name="collected_cash">Collected Cash:- %s</string>
+    <string name="empty_bottel_customer">Empty Bottle Customer</string>
+    <string name="create_order">Create Order</string>
+
+
+    <string name="change_language">Change Language</string>
+    <string name="which_language_do_you_prefer">Which language do you prefer?</string>
+    <string name="the_at_serve_app_now_supports_both_english_and_hindi">AtServe-Vendor App now supports both English and Hindi, please choose your default language below</string>
+    <string name="to_change_your_language_in_the_future">To change your language in the future you can find the setting under the side panel</string>
+    <string name="please_select_language">Please select language</string>
+    <string name="english" translatable="false">English</string>
+    <string name="hindi" translatable="false">हिंदी</string>
+    <string name="exit_app_alert">Are you sure you want to exit the app?</string>
+    <string name="logout_alert">Are you sure you want to logout?</string>
+    <string name="payment_mode">Payment Mode: %s</string>
+    <string name="payment_mode2">Payment Mode:</string>
+    <string name="paytm_cash" translatable="false">PayTM:- %s</string>
+
+    <string name="incentive_cash">Incentive:- %s</string>
+    <string name="atserve_commision">AtServe Commission:- %s</string>
+    <string name="lbl_rupees" translatable="false">₹ %1$s</string>
+    <string name="leave_feedback_about_your_order">Leave feedback about your order.</string>
+
+    <string name="having_trouble_call_us">Are you having trouble with this order? Call Us</string>
+    <string name="order_details">Order Details</string>
+    <string name="customer_orders">Customer Orders</string>
+    <string name="orderDate_colon">Order Date:</string>
+    <string name="orderNumber_color">Order No:</string>
+    <string name="order_number_value">Order No: %s</string>
+    <string name="vendor_colon">Vendor:</string>
+    <string name="deliverySlot_colon">Delivery Slot:</string>
+    <string name="amount_colon">Amount:</string>
+    <string name="quantity_colon">Ouantity:</string>
+    <string name="orderStatus_colon">Order Status:</string>
+    <string name="total_amount_colon">Total Amount:</string>
+    <string name="customer_address">Customer Address</string>
+    <string name="paymentMode">Payment Mode</string>
+    <string name="customerDetails">Customer Details</string>
+    <string name="payment_details_colon">Payment Details:</string>
+    <string name="customer_mobile_number">Customer Mobile Number</string>
+    <string name="discount_colon">Discount:</string>
+    <string name="total_tax_0">Total Tax (0%):</string>
+    <string name="payable_amount_colon">Payable Amount:</string>
+    <string name="have_query">I have a Query</string>
+    <string name="vendor_not_available">Vendor not available</string>
+    <string name="n_a">N/A</string>
+    <string name="comments_label">"Comments: %s"</string>
+    <string name="no_scheduled_orders">No Scheduled Orders Available</string>
+    <string name="Security_Deposit">Security Deposit</string>
+    <string name="Security_Deposit_message">Security Amount is already Deposit</string>
+    <string name="cash_amt">Cash Amount</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_my_order">My Order</string>
+    <string name="menu_new_purchage_log">New Purchage Log</string>
+    <string name="menu_history">History</string>
+    <string name="menu_my_attandance">Attandance</string>
+    <!--    <string name="menu_my_report">My Report</string>-->
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_change_language">Change Language</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="average_Time">Average Time</string>
+    <string name="checkout_data">You have clocked in today at</string>
+    <string name="attandance">Attandance</string>.
+    <string name="clockIn_clockout">ClockIn/ClockOut</string>
+    <string name="attandance_report">Attandance Report</string>
+    <string name="email">Email</string>
+    <string name="c_name">Company Name</string>
+    <string name="operation_time">Operation Time</string>
+    <string name="adhar_number">Adhar Number</string>
+    <!--    DP String-->
+
+    <string name="today_order_complete">Delivered Order</string>
+    <string name="total_order">Assign Order</string>
+    <string name="title_activity_clock_in_clock_out">ClockInClockOutActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="please_Upload_image_for_clockIn">Please Upload Image for ClockIn</string>
+
+    <string name="you_are_not_clockin">You have not done Clock IN</string>
+    <string name="clockin_done_successfully">Today clockIn done successfully at  </string>
+    <string name="clockout_done_successfully">Today clockOut done successfully at  </string>
+    <string name="clockout_at">ClockOut done successfully at  </string>
+    <string name="upload_image_for_clock_out">Upload image for clockout</string>
+    <string name="select_inventory_report_date">Select Inventory Report Date</string>
+    <string name="show">Show</string>
+    <string name="no_inventory_report_available">No Inventory Report Available</string>
+    <string name="emptyquantity">Empty Quantity: </string>
+    <string name="operation_date">Operation Date: </string>
+    <string name="filledquantit">Filled Quantity: </string>
+    <string name="totalquantit">Total Quantity: </string>
+    <string name="totalquantity">Total Quantity: %d</string>
+    <string name="totalempty">Total Empty: %d</string>
+    <string name="totalfilled">Total Filled: %d</string>
+    <string name="inputtotal">Input Total: %d</string>
+    <string name="inputempty">Input Empty: %d</string>
+    <string name="inputfilled">Input Filled: %d</string>
+    <string name="differenceempty">Difference Empty: %d</string>
+    <string name="differencefilled">Difference Filled: %d</string>
+    <string name="differencetotal">Difference Total: %d</string>
+    <string name="productName_or_storename">Product Name/ Store Name: </string>
+    <string name="select_customer">Select Customer</string>
+    <string name="select_product">Select Product</string>
+    <string name="delivery_Slot">Delivery Slot</string>
+    <string name="order_amount">Order Amount</string>
+    <string name="payment_mode3">Payment Mode</string>
+    <string name="cash">Cash</string>
+    <string name="security_include">Security Include</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add">ADD</string>
+    <string name="pickedupcustomer">Empty Bottle Pick up Customer</string>
+    <string name="please_enter_security_amount">Please Enter Security Amount</string>
+    <string name="Please_select_customer">Please Select Customer</string>
+    <string name="Please_select_product">Please Select Product</string>
+    <string name="Please_select_delivery_slot">Please Select Delivery Slot</string>
+    <string name="Please_enter_address">Please enter address</string>
+    <string name="Please_enter_order_amt">Please enter order amount</string>
+    <string name="Please_enter_security">Please enter security deposit</string>
+    <string name="Please_enter_security_include">Please select security include</string>
+    <string name="inventory_submit">Inventory Submit</string>
+    <string name="select_bottle">Select Bottle</string>
+    <string name="totalfilled_bottle">Total Filled Bottle</string>
+    <string name="totalempty_bottle">Total Empty Bottle</string>
+    <string name="enter_empty_bottle">Enter Empty Bottle</string>
+    <string name="enter_filled_bottle">Enter Filled Bottle</string>
+    <string name="inventory_successfull_submit_please_log_your_attandance_now">Inventory Successfully Submit Please Log Your Attandance Now</string>
+    <string-array name="nav_item_activity_titles">
+        <item>My Orders</item>
+        <item>History</item>
+        <item>Create DP Account</item>
+        <item>Assign Order To DP</item>
+        <item>Assigned Order</item>
+        <item>Empty Bottle Customer</item>
+        <item>Create Order</item>
+        <item>My DPs</item>
+        <item>My Customers</item>
+        <item>Delivery Areas</item>
+        <item>My Products/Services</item>
+        <item>Business Report</item>
+        <item>Inventory Report</item>
+        <item>About Us</item>
+        <item>Contact Support</item>
+    </string-array>
+
+    <string name="main_wallet_amount_cannot_be_more_than_rs_10000">Main Wallet balance cannot be more than ₹ 10000</string>
+    <string name="reserved_for_subscription">Reserved for Subscription</string>
+    <string name="spare_bottle_charges">Spare Bottle Charges:</string>
+    <string name="insufficient_bal">Insufficient Balance. Please recharge Wallet</string>
+    <string name="remark">Remark</string>
+    <string name="title_activity_contact_support">Contact Support</string>
+    <string name="title_contact_support">In case of any query, feel free to contact us @</string>
+    <string name="contact_numbers">+91-8448440668</string>
+    <string name="support_email">Email - info@cladinnovation.com</string>
+    <string name="support_timing">Support available from 9:00 AM - 6:00 PM</string>
+    <string name="title_activity_need_help">Need Help</string>
+    <string name="needhelp_about_us">About Us</string>
+    <string name="needhelp_termncondition">Terms Condition</string>
+    <string name="needhelp_return_refund">Return and Refund Policy</string>
+    <string name="needhelp_privacypolicy">Privacy Policy</string>
+    <string name="subscription_deduction_through_wallet_notif">Please Note\n1)Subscription will be charged through wallet\n
+    2)Start Date will be first Date of Delivery</string>
+    <string name="active_subscription">Active Subscriptions</string>
+    <string name="active_subscription_value">Active Subscription (%s)</string>
+    <string name="promocode">Promo code</string>
+    <string name="promocode_enter">Please Enter promo code</string>
+    <string name="product_info">Product Information</string>
+    <string name="product_info_msg">*Product Prices may change in Future as per Market Rates\n
+        *Product Price include taxes.</string>
+    <string name="spare_bottle">Spare Bottles</string>
+    <string name="how_many_spare_bottle">How Many Spare Bottle Do you need?</string>
+    <string name="tap_to_add_delete_quantity">Tap to Add or Delete number of bottles</string>
+    <string name="security_money">Security Money</string>
+    <string name="security_money_colon">Security Money :</string>
+    <string name="society_block_star">Society/Sector</string>
+    <string name="premium_products"> Other Products (%s)</string>
+    <string name="premium_products_without_count">Other Products</string>
+    <string name="total_tax">Shipping Charges Inc.</string>
+    <string name="total_payable">Total Payable :</string>
+    <string name="wallet_low_balance">Wallet Low Balance Alert</string>
+    <string name="low_balance_description">Dear Customer \nYou have low Wallet balance ,It will interrupt your delivery.\nPlease Add Money for uninterrupted experience </string>
+    <string name="nav_bottom_order">Orders</string>
+    <string name="nav_bottom_wallet">Wallet</string>
+    <string name="tower">Tower</string>
+    <string name="towerCheck_checkbox">No Tower Available</string>
+    <string name="enter_society">Enter Society Name*</string>
+    <string name="security_refund_query">Hi ,\n I need to return the spare bottle and request back the security of bottle</string>
+    <string name="social_media_share_header">Share with your friends</string>
+    <string name="social_media_share_description">Share your experience with your friends on facebook &amp; get cashback on wallet on each successful share.</string>
+    <string name="share">Share</string>
+    <string name="security_deposit">You dont have any security deposit</string>
+    <string name="login">Login</string>
+    <string name="enter_Mobile_No">Enter Mobile Number</string>
+    <string name="note">Note:\nMinimum Amount in wallet should be  ₹300 while purchasing Subscription</string>
+    <string name="non_delivery_text">We are expanding quickly , Help us to expand to you location by refer you vendor.</string>
+    <string name="available_balance">Available balance</string>
+    <string name="rechage_pack_recyclerview_message">Recharge Packs(Click on below pack to apply )</string>
+    <string name="security_receive">Security Received: </string>
+    <string name="depreciation_day">Depreciation Day: </string>
+    <string name="total_refundable">Total Refundable: </string>
+    <string name="depreciation_charge_info"><u>*Depreciation Charge Info</u></string>
+    <string name="security_amt_info">Security Amount Information</string>
+    <string name="request_security_refund">Request Security Refund</string>
+    <string name="security_receive_date">Security Receive Date: </string>
+    <string name="min_wallet_add_amount">Minimum Recharge Amount should be ₹100</string>
+    <string name="nav_bottom_chat_support">Chat Support</string>
+    <string name="addMoney">Add Money</string>
+    <string name="enterAmount">Enter Amount(₹)</string>
+    <string name="rechargeAccount">Recharge Amount</string>
+    <string name="rechargeHistory">Transaction \nHistory</string>
+    <string name="earnandrefer">Earn and Refer</string>
+    <string name="set_as_default_address">Set as Default Address</string>
+    <string name="home_caps">HOME</string>
+    <string name="office_caps">OFFICE</string>
+    <string name="availability_of_lift">Availability of Lift</string>
+    <string name="pincode_star">Pincode*</string>
+    <string name="state_star">State*</string>
+    <string name="no_data_available">No data available</string>
+
+    <string name="name_star">Name*</string>
+
+    <string name="address_hno_building_street_area">Address(House No, Building, Street, Area)*</string>
+    <string name="locality_town_star">Locality/Town*</string>
+    <string name="floor_number_asterix">Floor Number*</string>
+    <string name="city_district_star">City/District*</string>
+    <string name="mobile_star">Mobile*</string>
+    <string name="alternate_mobile_number">Alternate mobile number</string>
+    <string name="please_enter_value">Please enter value</string>
+
+    <string name="please_enter_valid_number">Please enter valid mobile number</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="add_to_wishlist">Add to wishlist</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="product_Category">Product Category</string>
+    <string name="product_Stock">Product Stock</string>
+    <string name="productOffer">Product Offer</string>
+    <string name="productdetail">Product Detail</string>
+
+</resources>

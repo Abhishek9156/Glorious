@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".wishlist.WishlistFragment">
+<TextView
+    android:id="@+id/Tvnodata"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:textColor="@color/colorBlack"
+    android:textSize="@dimen/textsize30"
+    android:text="@string/no_data_available"
+    >
+</TextView>
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/rvWishlist"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginBottom="55dp"
+       android:visibility="gone"
+       ></androidx.recyclerview.widget.RecyclerView>
+</FrameLayout>

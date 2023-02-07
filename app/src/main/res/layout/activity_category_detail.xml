@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.category.CategoryDetailActivity">
+    <SearchView
+        android:id="@+id/cateseachItem"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_5"
+        android:layout_marginRight="@dimen/margin_5"
+        android:layout_marginLeft="@dimen/margin_5"
+        android:layout_marginBottom="@dimen/size10"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_border"></SearchView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/caterec"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="55dp"
+        android:visibility="gone"
+        tools:listitem="@layout/datadaptorrecycler"
+        android:layout_height="match_parent" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textSize="@dimen/size40"
+        android:text="@string/no_data_available"
+        android:id="@+id/text"></TextView>
+</LinearLayout>

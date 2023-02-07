@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/otppage"
+    tools:context=".forgotpassword.OtpActivity">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/colorPrimary"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="VERIFY OTP"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/colorWhite"
+            android:textSize="25dp"
+            android:layout_height="wrap_content"></TextView>
+        <TextView
+            android:id="@+id/tvno"
+            android:textStyle="bold"
+            android:layout_marginTop="50dp"
+            android:layout_width="wrap_content"
+            android:text="@string/otp_login"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:src="@drawable/mail"
+            android:layout_marginLeft="300dp"
+            android:layout_height="150dp">
+
+        </ImageView>
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:text="enter otp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textAllCaps="true"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+
+        <com.chaos.view.PinView
+            android:id="@+id/pinView"
+            style="@style/PinWidget.PinView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:inputType="number"
+            android:padding="10dp"
+            android:textSize="18sp"
+            app:itemCount="6"
+            app:itemHeight="48dp"
+            app:itemRadius="10dp"
+            app:lineColor="@android:color/darker_gray"
+            app:viewType="rectangle"></com.chaos.view.PinView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/buttonContinue"
+            android:layout_width="183dp"
+            app:cardCornerRadius="2dp"
+            android:elevation="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:id="@+id/submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_50"
+                android:textAllCaps="true"
+                android:textColor="@color/colorWhite"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:textSize="@dimen/size16"
+                android:background="@drawable/border_gradient"
+                android:text="@string/submit" />
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

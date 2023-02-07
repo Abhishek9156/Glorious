@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:id="@+id/cardviews"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tvoffer"
+                    android:layout_width="@dimen/margin_60"
+                    android:text="10% off"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textColor="@color/colorWhite"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/offerdesign"
+                    android:visibility="gone"
+                    android:layout_height="@dimen/size20"></TextView>
+
+                <ImageView
+                    android:id="@+id/imfav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:padding="@dimen/size5"
+                    android:src="@drawable/wishlistcartline_24">
+                </ImageView>
+
+            </RelativeLayout>
+        </LinearLayout>
+        <ImageView
+            android:id="@+id/ivproduct"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/submit"
+            android:src="@drawable/bag" />
+
+        <TextView
+            android:id="@+id/tvProduct"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="order id: id45545454545"
+            android:layout_marginLeft="@dimen/size5"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/tvdescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="status: Delivered"
+            android:layout_marginLeft="@dimen/size5"
+
+            android:textAlignment="textStart" />
+
+        <TextView
+            android:id="@+id/tvquantity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type: Bag"
+            android:layout_marginLeft="@dimen/size5"
+
+            android:textAlignment="textStart" />
+        <RatingBar
+            style="?android:attr/ratingBarStyleSmall"
+            android:id="@+id/tvrating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size5"
+            android:theme="@style/RatingBar"
+            android:visibility="gone"
+            android:numStars="5" />
+        <TextView
+            android:id="@+id/tvprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type: Bag"
+            android:layout_marginLeft="@dimen/size5"
+            android:layout_marginBottom="@dimen/size10"
+            android:textAlignment="textStart" />
+        <LinearLayout
+            android:id="@+id/linearlayour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_shape"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:visibility="gone"
+            android:layout_marginLeft="@dimen/margin_10"
+            android:layout_marginRight="@dimen/margin_10"
+            android:layout_marginTop="@dimen/size5"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/btn"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size30"
+                android:text="Add to cart"
+                android:textStyle="bold"
+                android:textColor="@color/colorPrimary"
+                android:gravity="center"
+                android:background="@color/fill_color"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

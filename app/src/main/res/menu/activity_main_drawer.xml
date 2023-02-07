@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_baseline_category"
+            android:title="@string/category" />
+<!--        <item-->
+<!--            android:id="@+id/nav_address_book"-->
+<!--            android:icon="@drawable/addhome"-->
+<!--            android:title="@string/address_book" />-->
+<!--        <item-->
+<!--            android:id="@+id/nav_earn"-->
+<!--            android:icon="@drawable/wallet"-->
+<!--            android:title="@string/earnandrefer" />-->
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_profile"
+            android:title="@string/profile" />
+        <item
+            android:id="@+id/nav_order_history"
+            android:icon="@drawable/ic_baseline_view_list"
+            android:title="@string/Order_history" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_baseline_logout"
+            android:title="@string/logout" />
+    </group>
+</menu>
