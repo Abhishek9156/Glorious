@@ -24,7 +24,7 @@
             android:layout_width="100dp"
             android:id="@+id/showing"
             android:layout_height="80dp"
-            android:src="@drawable/ic_baseline_home"></ImageView>
+            android:src="@drawable/ic_baseline_profile"></ImageView>
 
     </RelativeLayout>
 
