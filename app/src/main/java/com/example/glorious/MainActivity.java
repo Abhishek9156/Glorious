@@ -70,8 +70,9 @@ TextView name,email;
         navigationView = findViewById(R.id.nav_view);
         bottomNavView = findViewById(R.id.bottom_nav_view);
         contentView = findViewById(R.id.content_view);
-        //name=findViewById(R.id.name);
-       // email=findViewById(R.id.email);
+        View headerView=navigationView.getHeaderView(0);
+        name=headerView.findViewById(R.id.name);
+        email=headerView.findViewById(R.id.email);
         // Passing each menu ID as a set of Ids because each
         // menu should be considered as top level destinations.
         mAppBarConfiguration = new AppBarConfiguration.Builder(
@@ -87,8 +88,8 @@ TextView name,email;
         String fname=SharedPreferenceUtil.getInstance(getApplicationContext()).getStringValue(KeyConstants.FNAME,"");
         String lname=SharedPreferenceUtil.getInstance(getApplicationContext()).getStringValue(KeyConstants.LNAME,"");
         String emails=SharedPreferenceUtil.getInstance(getApplicationContext()).getStringValue(KeyConstants.EMAIL,"");
-      //  email.setText(emails);
-      //  name.setText(fname+" "+lname);
+        email.setText(emails);
+        name.setText(fname+" "+lname);
         NavigationUI.setupWithNavController(navigationView, navController);
         NavigationUI.setupWithNavController(bottomNavView, navController);
         navigationView.getMenu().findItem(R.id.nav_logout).setOnMenuItemClickListener(menuItem -> {
@@ -103,7 +104,7 @@ TextView name,email;
     void logout() {
         new AlertDialog.Builder(this)
                 .setTitle("Logout")
-                .setMessage("Do you really want to whatever?")
+                .setMessage("Do you really want to logout?")
                 .setIcon(android.R.drawable.ic_dialog_alert)
                 .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
 

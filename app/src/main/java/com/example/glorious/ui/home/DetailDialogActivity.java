@@ -74,15 +74,15 @@ public class DetailDialogActivity extends AppCompatActivity {
             productdetail.setText(data.productdetail);
             pid=data.productID;
         }
-        String loginType= SharedPreferenceUtil.getInstance(getApplicationContext())
+        String uid= SharedPreferenceUtil.getInstance(getApplicationContext())
                 .getStringValue(KeyConstants.UID ,"");
 
         addtocart.setOnClickListener(view -> {
-            addtocartApi(loginType,pid);
+            addtocartApi(uid,pid);
         });
 
         addtowishlist.setOnClickListener(view -> {
-            addtowishlistApi(loginType,pid);
+            addtowishlistApi(uid,pid);
         });
 
     }
@@ -100,6 +100,8 @@ public class DetailDialogActivity extends AppCompatActivity {
                 SignUpResponse upResponse=response.body();
                 if(upResponse.status.equals("true")){
                     Toast.makeText(DetailDialogActivity.this, upResponse.msg, Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    finish();
                 }else {
                     Toast.makeText(DetailDialogActivity.this, upResponse.msg, Toast.LENGTH_SHORT).show();
                 }
@@ -128,6 +130,7 @@ public class DetailDialogActivity extends AppCompatActivity {
                 if(upResponse.status.equals("true")){
                     Toast.makeText(DetailDialogActivity.this, upResponse.msg, Toast.LENGTH_SHORT).show();
                     startActivity(new Intent(getApplicationContext(), MainActivity.class));
+                    finish();
                 }else {
                     Toast.makeText(DetailDialogActivity.this, upResponse.msg, Toast.LENGTH_SHORT).show();
                 }

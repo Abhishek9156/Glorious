@@ -22,8 +22,9 @@ import retrofit2.Callback;
 import retrofit2.Response;
 
 public class ChangePasswordActivity extends AppCompatActivity {
-EditText editText1,editText2;
+    EditText editText1,editText2;
     ProgressDialog progressDialog;
+    String mno;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +33,10 @@ EditText editText1,editText2;
         editText1=findViewById(R.id.tvPassword1);
         editText2=findViewById(R.id.tvconPassword1);
         progressDialog = new ProgressDialog(ChangePasswordActivity.this);
-
+        Bundle bundle=getIntent().getExtras();
+        if(bundle!=null){
+            mno=bundle.getString("Mobile");
+        }
         findViewById(R.id.btnLogin1).setOnClickListener(view -> {
             checkValidation(editText1.getText().toString().trim(),editText2.getText().toString().trim());
         });
@@ -50,17 +54,17 @@ EditText editText1,editText2;
 
         else {
             if (Utility.isConnected(ChangePasswordActivity.this)) {
-                callApi(checkPassword);
+                callApi(mno,checkPassword);
             } else {
                 Toast.makeText(this, R.string.error_no_internet, Toast.LENGTH_SHORT).show();
             }
         }
     }
 
-    private void callApi(String checkPassword) {
+    private void callApi(String mno, String checkPassword) {
         progressDialog.setMessage("Please Wait");
         progressDialog.show();
-        Call<SignUpResponse> call= AppRetrofit.getClient().create(ApiServices.class).updatePassword("",checkPassword);
+        Call<SignUpResponse> call= AppRetrofit.getClient().create(ApiServices.class).updatePassword(mno,checkPassword);
         call.enqueue(new Callback<SignUpResponse>() {
             @Override
             public void onResponse(Call<SignUpResponse> call, Response<SignUpResponse> response) {

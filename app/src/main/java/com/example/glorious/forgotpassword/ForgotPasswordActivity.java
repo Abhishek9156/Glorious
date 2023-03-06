@@ -63,7 +63,9 @@ EditText mnumber;
 
                 SignUpResponse upResponse= response.body();
                 if(upResponse.status.equals("true")) {
-                    startActivity(new Intent(getApplicationContext(), ChangePasswordActivity.class));
+                    Intent intent=new Intent(ForgotPasswordActivity.this,ChangePasswordActivity.class);
+                    intent.putExtra("Mobile",checkNumber);
+                   startActivity(intent);
                 }else{
                     Toast.makeText(ForgotPasswordActivity.this, upResponse.msg, Toast.LENGTH_SHORT).show();
                 }
