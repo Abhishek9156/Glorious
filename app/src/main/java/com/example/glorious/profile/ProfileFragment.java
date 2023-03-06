@@ -35,8 +35,8 @@ public class ProfileFragment extends Fragment {
         name.setText(fname+" "+lname);
         email.setText(SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.EMAIL,""));
         mobile.setText(SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.MOBILE,""));
-        uid.setText("User Id "+SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.UID,""));
-doj.setText("Date of Join "+SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.CREATED_AT,""));
+        uid.setText("User Id: "+SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.UID,""));
+doj.setText("Date of Join: "+SharedPreferenceUtil.getInstance(getContext()).getStringValue(KeyConstants.CREATED_AT,""));
         return view;
     }
 }
